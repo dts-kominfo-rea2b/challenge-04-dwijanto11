@@ -19,7 +19,7 @@ const createDate = (dates, index) => {
     sortDate.sort();
     return sortDate.join("-");
   } else {
-    sortDate.sort();
+    // sortDate.sort();
     return sortDate[index];
   }
 };
